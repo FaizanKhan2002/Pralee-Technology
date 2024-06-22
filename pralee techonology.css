@@ -1,0 +1,434 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: #000000;
+}
+
+.name {
+    background-color: #031c31;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.homename {
+    background-image: url("img/bg_img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    background: linear-gradient(to left, rgb(255, 0, 157), blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.creat {
+    padding-top: 40PX;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+div H1 {
+    font-weight: 700;
+    font-size: 45pt;
+    color: white;
+}
+
+.btn {
+    border-radius: 100px !important;
+    background-color: #2ba8fb !important;
+    font-weight: 500;
+    width: 120px;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+/* text 2 */
+.text2 {
+    font-size: 70pt;
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(to left, rgb(255, 0, 157), blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.text3 {
+    font-size: 28pt;
+    line-height: 45px;
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+.subline {
+    height: 10px;
+    width: 5px;
+    background-color: #2ba8fb;
+    margin-top: 10px;
+}
+
+.pralee {
+    position: relative;
+    right: 10px;
+}
+
+.secondText {
+    padding-right: 20px;
+}
+
+.text4 {
+    color: white;
+    font-size: 30pt;
+    font-weight: 100;
+}
+
+.text5 {
+    font-size: 25px;
+    color: #919597;
+    line-height: 35px;
+}
+
+/* WE Serve */
+
+.text6 {
+    color: white;
+    text-align: end;
+    font-size: 50pt;
+    font-weight: 700;
+    background: linear-gradient(to LEFT, rgb(228, 22, 228), purple, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.text7 {
+    position: relative;
+    bottom: 20PX;
+    color: #c2c6c9;
+}
+
+.div1 {
+    width: 450px;
+    height: 150px;
+    font-size: 20pt;
+    border-radius: 20px;
+    box-shadow: rgba(196, 10, 233, 0.3) 0px 1px 2px 0px, rgba(6, 137, 236, 0.15) 0px 1px 3px 1px;
+    background-color: rgb(26, 43, 58);
+}
+
+.CONSULTATION{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.295)), url("img/CONSULTATION.jpeg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.div1 i {
+    font-size: 30pt;
+}
+
+.div1:hover {
+    background-color: rgb(9, 24, 36);
+    box-shadow: rgba(196, 10, 233, 0.3) 0px 1px 2px 0px, rgba(6, 137, 236, 0.15) 0px 1px 3px 1px;
+}
+
+/* section contact */
+.contact {
+    background-image: linear-gradient(rgba(3, 3, 31, 0.733), rgba(3, 3, 31, 0.76)), url(bgpic2.341f7f2e2ef3dbcd9b5b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+}
+
+.need {
+    font-size: 70pt;
+    background: linear-gradient(to left, rgb(238, 22, 238), rgb(28, 28, 168));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.text8 {
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+    left: 12px;
+    color: rgb(192, 188, 188);
+}
+
+/* footer */
+.footer {
+    height: 400px;
+}
+
+.text10 {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.semibold {
+    position: relative;
+    top: 3 65px;
+}
+
+.footerna {
+    color: rgb(192, 188, 188);
+    position: relative;
+    top: 35px;
+}
+
+.textlast {
+    color: rgb(192, 188, 188);
+    position: relative;
+    bottom: 20PX;
+}
+
+
+/* / About Page */
+.bgfirst_img {
+    background-image: url(c:\Users\Dc\Desktop\M_Parlee\img\bgpic.c02d1c758caa4989c54c.jpg);
+    height: 400px;
+}
+
+.about {
+    background-image: linear-gradient(rgba(3, 3, 31, 0.733), rgba(3, 3, 31, 0.76)), url(img/bgpic.c02d1c758caa4989c54c.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* div h2 {
+    color: white;
+    font-size: 6vh;
+} */
+
+.span_1 {
+    background-image: linear-gradient(to right, rgb(35, 99, 236), rgba(203, 11, 228, 0.685), rgb(250, 23, 250));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    height: 66vh;
+    width: 56vh;
+    background-color: #191919;
+    box-shadow: navy 0px 1px 3px;
+    transition: all 1s;
+}
+
+.card img {
+    float: center;
+}
+
+.card:hover {
+    box-shadow: skyblue 0px 1px 2px;
+}
+
+.innerCard {
+    transform: translate(0%, 15%);
+    color: #eee5e5;
+}
+
+.innerCard img {
+    transform: translate(70%);
+}
+
+.span_2 {
+    background-image: linear-gradient(to right, rgba(14, 47, 233, 0.911), rgba(141, 36, 182, 0.877), rgba(233, 26, 171, 0.945));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* section 3 about  */
+.bgimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.644)), url(img/team.9edc77f7ba51a814751d.jpg);
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.aboutdiv_1 {
+    background-color: rgb(36, 36, 56);
+    width: 85vh;
+    height: 14vh;
+}
+
+.aboutdiv_1:hover {
+    background-color: rgb(67, 67, 82);
+}
+
+.aboutdiv_2 {
+    background-color: rgb(36, 36, 56);
+    width: 85vh;
+    height: 14vh;
+    position: relative;
+    left: 60vh;
+}
+
+.aboutdiv_2:hover {
+    background-color: rgb(67, 67, 82);
+}
+
+.aboutdiv_3 {
+    background-color: rgb(36, 36, 56);
+    width: 85vh;
+    height: 14vh;
+}
+
+.aboutdiv_3:hover {
+    background-color: rgb(67, 67, 82);
+}
+
+.aboutdiv_4 {
+    background-color: rgb(36, 36, 56);
+    width: 85vh;
+    height: 18vh;
+    position: relative;
+    left: 60vh;
+}
+
+.aboutdiv_4:hover {
+    background-color: rgb(67, 67, 82);
+}
+
+#grad1 {
+    height: 400px;
+    background-color: rgb(183, 0, 255);
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top left, rgb(0, 81, 255), rgb(174, 0, 255));
+}
+
+/* section services */
+
+.bgServices {
+    background-image: linear-gradient(rgba(3, 15, 31, 0.753), rgba(8, 35, 66, 0.829)), url(img/img.jpg);
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.webimg {
+    z-index: -1;
+}
+
+.webimg img {
+    opacity: 0.5;
+    width: 150vh;
+    height: 90vh;
+}
+
+
+.span_3 {
+    background-image: linear-gradient(to right, rgb(41, 18, 248), rgb(176, 23, 236), rgba(64, 18, 231, 0.945));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom {
+    background-image: linear-gradient(rgba(4, 14, 34, 0.63), rgba(21, 2, 31, 0.829)), url('img/service_img2.jpg');
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.span_4 {
+    background-image: linear-gradient(to right, rgb(248, 18, 210), rgb(55, 23, 236), rgba(64, 18, 231, 0.945));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div_s {
+    background-color: rgb(10, 61, 102);
+    width: 650px;
+    height: 550px;
+    border-radius: 0px 600px 600px 0px;
+    border-right: dashed skyblue;
+}
+
+.text_round {
+    position: relative;
+    bottom: 30vh;
+    left: 90vh;
+}
+
+/*  */
+.text_serve {
+    background-image: linear-gradient(to right, rgb(41, 18, 248), rgb(176, 23, 236), rgba(64, 18, 231, 0.945));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inCard {
+    background-color: rgb(6, 65, 104);
+}
+
+/*  */
+
+.bgimage {
+    background-image: linear-gradient(rgba(4, 14, 34, 0.63), rgba(21, 2, 31, 0.829)), url(img/bgpic2.341f7f2e2ef3dbcd9b5b.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text_work {
+    background-image: linear-gradient(to right, rgb(60, 18, 248), rgb(101, 13, 136), rgba(235, 35, 235, 0.884));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* gaming */
+.gaming {
+    background-image: url(c:\Users\Dc\Desktop\M_Parlee\img\computer.jpeg);
+    height: 300px;
+}
+
+.bg_Img {
+    background-image: url("img/gamingImg.png");
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner_img {
+    background-image: url('img/banner.jpg');
+    height: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.banner_img div,
+.btn_button {
+    background-image: linear-gradient(to right, rgb(18, 37, 78), rgba(93, 14, 104, 0.685), rgb(211, 15, 211));
+}
+
+/* contact */
+
+.contact {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 700px;
+    width: 700px;
+}
